@@ -1,0 +1,63 @@
+{
+  "setupInstructions": [
+    {
+      "type": "copy_file",
+      "sourcePath": "roo-code-memory-bank/.clinerules-architect",
+      "destinationPath": ".clinerules-architect"
+    },
+    {
+      "type": "copy_file",
+      "sourcePath": "roo-code-memory-bank/.clinerules-ask",
+      "destinationPath": ".clinerules-ask"
+    },
+    {
+      "type": "copy_file",
+      "sourcePath": "roo-code-memory-bank/.clinerules-code",
+      "destinationPath": ".clinerules-code"
+    },
+    {
+      "type": "copy_file",
+      "sourcePath": "roo-code-memory-bank/.clinerules-debug",
+      "destinationPath": ".clinerules-debug"
+    },
+    {
+      "type": "copy_file",
+      "sourcePath": "roo-code-memory-bank/.clinerules-test",
+      "destinationPath": ".clinerules-test"
+    },
+    {
+      "type": "copy_file",
+      "sourcePath": "roo-code-memory-bank/.roomodes",
+      "destinationPath": ".roomodes"
+    },
+    {
+      "type": "copy_file",
+      "sourcePath": "roo-code-memory-bank/projectBrief.md",
+      "destinationPath": "projectBrief.md"
+    },
+    {
+      "type": "create_directory",
+      "path": "memory-bank"
+    },
+    {
+      "type": "create_file",
+      "path": "memory-bank/activeContext.md",
+      "content": "# activeContext.md\n\nThis file tracks the current session's context, goals, and decisions."
+    },
+    {
+      "type": "create_file",
+      "path": "memory-bank/decisionLog.md",
+      "content": "# decisionLog.md\n\nThis file records architectural and technical decisions made throughout the project."
+    },
+    {
+      "type": "create_file",
+      "path": "memory-bank/productContext.md",
+      "content": "# productContext.md\n\nThis file maintains the high-level product context and overall project knowledge."
+    },
+    {
+      "type": "create_file",
+      "path": "memory-bank/progress.md",
+      "content": "# progress.md\n\nThis file documents completed work, tracks progress, and lists upcoming tasks."
+    }
+  ]
+}
